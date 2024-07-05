@@ -1,0 +1,262 @@
+/*웹폰트- 배달의민족 도현*/
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*상단배너*/
+#benefit_top {
+    width: 1280px;
+    height: 600px;
+    background: url(../images/benefit_topbg.jpg);
+    margin: 0 auto;
+}
+
+#benefit_top div.box {
+    width: 1280px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+
+    position: relative;
+
+    opacity: 0;
+}
+
+#benefit_top:hover div.box {
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+#benefit_top div.box h2 {
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*위치 표시줄*/
+#location_bar {
+    width: 1280px;
+    height: 80px;
+    /* background: pink; */
+    margin: 0 auto;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+#location_bar p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#location_bar p.home {
+    width: 65px;
+    height: 80px;
+    /* background: cyan; */
+    text-align: center;
+    line-height: 80px;
+
+    margin-left: 70px;
+
+    border-left: 1px solid #bcbcbc;
+    border-right: 1px solid #bcbcbc;
+}
+
+
+#location_bar p.txt1 {
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#location_bar p.txt2 {
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*서브메뉴*/
+#sub_menu {
+    width: 1000px;
+    height: 100px;
+    background: yellow;
+    margin: 80px auto;
+}
+
+#sub_menu li a {
+    display: block;
+    width: 500px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+
+    float: left;
+
+    text-align: center;
+    line-height: 100px;
+
+    color: #333;
+    font-size: 24px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#sub_menu li:nth-child(2) a {
+    border-left: 0;
+}
+
+#sub_menu li a:hover {
+    background: #cc0001;
+    color: #fff;
+}
+
+/*바우처 영역*/
+#voucher_section1 {
+    width: 1280px;
+    /* background: yellow; */
+    margin: 0px auto;
+    text-align: center;
+}
+#voucher_section1 h2 {
+    text-align: left;
+
+    padding: 30px 0 0 50px;
+    font-size: 24px;
+    color:#333; letter-spacing: -2px;
+    line-height: 1.2;
+}
+#voucher_section1 h2 span {
+    color:#666; font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+
+#voucher_section1 ul li {
+    width: 350px;
+    height: 270px;
+    /* border: 1px solid red; */
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 30px;
+    text-align: center;
+    
+    overflow: hidden;
+
+}
+
+
+#voucher_section1 ul li p.img {
+    width: 350px;
+    height: 230px;
+
+    overflow: hidden;
+}
+
+#voucher_section1 ul li p.img:hover img {
+    transform: rotate(360deg);
+    transition: 1s;
+    cursor: pointer;
+}
+
+p.line {
+    width: 1180px; height: 1px;
+    background: #ddd;
+    margin: 50px auto;
+}
+
+/*3단배너&글자그라데이션*/
+#voucher_section2 {
+    width: 1280px;
+    /* background: yellow; */
+    margin: 0px auto;
+    text-align: center;
+}
+
+#voucher_section2 h2 {
+    display: inline-block;
+    margin-top: 50px;
+    
+    font-size: 28px;
+    letter-spacing: -2px;
+
+    background-image: radial-gradient(circle, #c90604, #ab784b 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#voucher_section2 p.txt {
+    padding-top: 10px;
+
+    color:#666; font-size: 16px;
+    letter-spacing: -1px;
+}
+
+#voucher_section2 ul li {
+    width: 200px; height: 200px;
+    /* background: cyan; */
+
+    display: inline-block;
+    vertical-align: middle;
+}
+#voucher_section2 ul li.line {
+    width: 1px; height: 140px;
+    background: #ddd;
+    margin: 100px;
+}
+
+/*구매조건&유의사항*/
+#voucher_down {
+    width: 1280px;
+    height: 400px;
+    /* background: cyan; */
+    margin: 50px auto;
+    text-align: center;
+}
+
+#voucher_down pre {
+    width: 1180px;
+    height: 400px;
+    margin: 0 auto;
+    background: #f7f7f7;
+
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: left;
+
+    font-family: '맑은 고딕';
+}
+
+#voucher_down pre h2{
+    letter-spacing: -1px;
+}
+
+#voucher_down pre h1{
+    font-size: 26px;
+    color: #c90604;
+    letter-spacing: -2px;
+}
+#voucher_section2 ul li h3{
+    margin: 10px;
+    color: #333;
+    letter-spacing: -1px;
+}
+#voucher_section2 ul li h6{
+    font-size: 14px;
+    letter-spacing: -1px;
+    color: #666;
+}

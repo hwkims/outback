@@ -1,0 +1,254 @@
+/*웹폰트- 배달의민족 도현*/
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*상단배너*/
+#benefit_top {
+    width: 1280px;
+    height: 600px;
+    background: url(../images/benefit_topbg.jpg);
+    margin: 0 auto;
+}
+
+#benefit_top div.box {
+    width: 1280px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+
+    position: relative;
+
+    opacity: 0;
+}
+
+#benefit_top:hover div.box {
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+#benefit_top div.box h2 {
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*위치 표시줄*/
+#location_bar {
+    width: 1280px;
+    height: 80px;
+    /* background: pink; */
+    margin: 0 auto;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+#location_bar p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#location_bar p.home {
+    width: 65px;
+    height: 80px;
+    /* background: cyan; */
+    text-align: center;
+    line-height: 80px;
+
+    margin-left: 70px;
+
+    border-left: 1px solid #bcbcbc;
+    border-right: 1px solid #bcbcbc;
+}
+
+
+#location_bar p.txt1 {
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#location_bar p.txt2 {
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*서브메뉴*/
+#sub_menu {
+    width: 1000px;
+    height: 100px;
+    /* background: yellow; */
+    margin: 80px auto;
+}
+
+#sub_menu li a {
+    display: block;
+    width: 500px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+
+    float: left;
+
+    text-align: center;
+    line-height: 100px;
+
+    color: #333;
+    font-size: 24px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#sub_menu li:nth-child(2) a {
+    border-left: 0;
+}
+
+#sub_menu li a:hover {
+    background: #cc0001;
+    color: #fff;
+}
+
+/*크레디카드 상단영역*/
+#credit_top {
+    width: 1180px;
+    /* background: yellow; */
+    margin: 0px auto;
+}
+
+#credit_top p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#credit_top p.txt {
+    color: #333;
+    font-size: 28px;
+    letter-spacing: -2px;
+    font-weight: bold;
+}
+
+#credit_top p.txt span {
+    color: #666;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+#credit_top p.btn {
+    padding-left: 250px;
+}
+
+#credit_top p.btn i {
+    color: #666;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#credit_top p.btn i:hover {
+    color: #000;
+}
+
+#service_box {
+    width: 1180px;
+    height: 170px;
+    background: #fffaf6;
+    border: 1px solid #c7b19a;
+    margin: 20px 0;
+
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/*크레디카드 안내*/
+#credit_main {
+    width: 1180px;
+    /* background: cyan; */
+    margin: 30px auto;
+}
+
+#credit_main ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+#credit_main ul li img{
+    width: 350px;
+    height: 230px;
+}
+
+#credit_main ul li:nth-child(1) {
+    width: 350px;
+    height: 350px;
+    /* background: orange; */
+}
+
+#credit_main ul li:nth-child(1):hover img {
+    padding-top: 50px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#credit_main ul li:nth-child(2) {
+    width: 800px;
+    /* background: lawngreen; */
+    margin-left: 24px;
+}
+
+#credit_main p.line {
+    width: 1180px;
+    height: 1px;
+    background: #f7f7f7;
+    margin: 50px auto;
+}
+
+#credit_main ul li img {
+    padding-top: 20px;
+}
+
+#credit_main ul li h2 {
+    color: #333;
+    font-size: 22px;
+    letter-spacing: -2px;
+    line-height: 2;
+}
+
+#credit_main ul li h2 span {
+    color: #cc0001;
+}
+
+#credit_main ul li pre {
+    font-family: '맑은 고딕';
+    padding-top: 20px;
+    color: #777;
+    font-size: 16px;
+    letter-spacing: -1px;
+
+    line-height: 1.5;
+
+}
+
+#credit_main ul li p.btn {
+    border: 1px solid #bbbbbb;
+    display: inline-block;
+    padding: 5px 20px;
+    font-weight: bold;
+    color: #444;
+    letter-spacing: -1px;
+    cursor: pointer;
+}

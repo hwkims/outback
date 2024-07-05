@@ -1,0 +1,126 @@
+/*웹폰트- 배달의민족 도현*/
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*고객의소리 영역*/
+#cs_top {
+    width: 1280px;
+    height: 600px;
+    
+    background: url(../images/cs_top_bg.jpg);
+    margin: 0 auto;
+
+    position: relative;    
+    cursor: pointer;
+}
+
+#cs_top h2 {
+    color:#fff; font-size: 40px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff ;
+    display: inline-block;
+    padding-bottom: 5px;
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    opacity: 0;
+}
+
+#cs_top:hover h2 {
+    opacity: 1;
+    transition: 1s;
+}
+
+/*위치 표시줄*/
+#location_bar {
+    width: 1280px;
+    height: 80px;
+    /* background: pink; */
+    margin: 0 auto;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+#location_bar p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#location_bar p.home {
+    width: 65px;
+    height: 80px;
+    /* background: cyan; */
+    text-align: center;
+    line-height: 80px;
+
+    margin-left: 70px;
+
+    border-left: 1px solid #bcbcbc;
+    border-right: 1px solid #bcbcbc;
+}
+
+
+#location_bar p.txt1 {
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#location_bar p.txt2 {
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/*스토어 배너 영역*/
+#cs_board {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#cs_board table {
+    border-collapse: collapse;
+    margin: 0 auto 80px;
+}
+#cs_board table tr td,
+#cs_board table tr th {
+    border-bottom: 1px solid #ddd;
+    height: 70px;
+    text-align: center;
+    font-size: 15px; color:#555;
+}
+#cs_board table tr th {
+    background: #f9f9f9;
+    border-top: 2px solid #222;
+    font-size: 16px;
+    color:#333; letter-spacing: -1px;
+}
+
+#cs_board table caption {
+    padding: 60px 0 30px;
+    /*위 좌우 아래*/
+
+    text-align: left;
+    color:#333; font-size: 30px;
+    letter-spacing: -3px;
+    font-weight: bold;
+}
+#cs_board table tr td.left {
+    text-align: left;
+}
+#cs_board table tr td.c1 {
+    color:#666;
+}
+#cs_board table tr td.c2 {
+    color:#aaa;
+}
+
+
